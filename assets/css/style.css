@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  background-color: #FAFAFA;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 1.5em;
+}
+section {
+  clear: both;
+}
+
+@media screen and (max-width: 460px){
+  /* Header */
+  header {
+    position: absolute;
+    background-color: #d15e5b;
+    color: white;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    padding-top: 1.2em;
+    text-align: center;
+  }
+  /* Scores section */
+  #scores-section {
+    position: relative;
+    margin-top: 60px;
+    top: 0;
+    width: 100%;
+  }
+
+  .score-divs {
+    position: relative;
+    float: left;
+    color: white;
+    text-align: center;
+    background-color: #46556a;
+    width: 33.3333%;
+    padding: .5em;
+  }
+
+  .score-heading {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-bottom: .2em;
+  }
+
+  #time-num {
+
+  }
+
+  .trivia {
+    width: 80%;
+    margin: 0 auto;
+    /*height: 450px;*/
+  }
+
+  .options {
+    width: 46%;
+    position: relative;
+    float: left;
+    margin-bottom: 7%;
+    text-align: center;
+    /*background-color: red;*/
+    margin: 2%;
+  }
+
+  #question {
+    padding: 1em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .options > .choice-images > img {
+    width: 60px;
+    padding-top: 10px;
+  }
+
+  .options > .choice-text {
+    text-align: center;
+    /*width: 175px;*/
+    font-size: 1em;
+    font-weight: 200;
+    padding: 8px;
+  }
+
+  .learn-more {
+    display: none;
+    text-align: center;
+    font-size: .8em;
+    line-height: 3em;
+  }
+  .next-hint {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #46556a;
+    padding: 15px;
+    width: 100%;
+    color: white;
+  }
+  #next {
+    position: relative;
+    float: right;
+  }
+  #hint {
+    position: relative;
+    float: left;
+  }
+}
