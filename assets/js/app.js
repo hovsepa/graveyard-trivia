@@ -5,7 +5,7 @@ var questions = [
       question: "This company offered a platform to share personal secrets with other users anonymously.",
       choices: [
         { name: "Wantful",
-          image: "../assets/images/rdio2.png",
+          image: "assets/images/rdio2.png",
           url: "http://startupgraveyard.io/company/wantful/" },
         { name: "Secret",
           image: "assets/images/secret2.png",
@@ -64,20 +64,20 @@ var questions = [
       question: "Which of the following startups were NOT eCommerce?",
       choices: [
         { name: "Alikolo",
-          image: "../assets/images/rdio2.png",
+          image: "assets/images/rdio2.png",
           url: "http://startupgraveyard.io/company/alikolo/" },
         { name: "99Dresses",
-          image: "../assets/images/secret2.png",
+          image: "assets/images/secret2.png",
           url: "http://startupgraveyard.io/company/99dresses/" },
         { name: "Poliana",
-          image: "../assets/images/lookery2.png",
+          image: "assets/images/lookery2.png",
           url: "http://startupgraveyard.io/company/poliana/" },
         { name: "Totsy",
-          image: "../assets/images/sonar2.png",
+          image: "assets/images/sonar2.png",
           url: "http://startupgraveyard.io/company/totsy/" }],
       answer: {
         name: "Poliana",
-        image: "../assets/images/lookery2.png",
+        image: "assets/images/lookery2.png",
         url: "http://startupgraveyard.io/company/poliana/" }
     }
   ];
@@ -299,10 +299,7 @@ $('#next').on('click', function () {
 
 });
 
-
-// ---------- //
 // Tick Tock  //
-// ---------- //
 var timer = 30;
 var intervalId;
 
@@ -311,9 +308,6 @@ function startTimer () {
   $("#time-num").text(":" + timer);
   intervalId = setInterval(decrement, 1000);
 }
-
-$(".choices").on("click", stop);
-$("#resume").on("click", startTimer);
 
 function decrement() {
   timer--;
@@ -331,3 +325,6 @@ function decrement() {
 function stop() {
   clearInterval(intervalId);
 }
+
+$(".choices").on("click", stop);
+$("#resume").on("click", startTimer);
