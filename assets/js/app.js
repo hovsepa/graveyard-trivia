@@ -1,84 +1,244 @@
-console.log("in");
+// var json = $.getJSON("graveyard.json");
 
 var questions = [
     { id: 00,
       question: "This company offered a platform to share personal secrets with other users anonymously.",
       choices: [
         { name: "Wantful",
-          image: "assets/images/rdio2.png",
+          image: "assets/images/wantful.png",
           url: "http://startupgraveyard.io/company/wantful/" },
         { name: "Secret",
-          image: "assets/images/secret2.png",
+          image: "assets/images/secret.png",
           url: "http://startupgraveyard.io/company/secret/" },
         { name: "Lookery",
-          image: "assets/images/secret2.png",
+          image: "assets/images/lookery.png",
           url: "http://startupgraveyard.io/company/lookery/" },
         { name: "Sonar",
-          image: "assets/images/sonar2.png",
+          image: "assets/images/sonar.png",
           url: "http://startupgraveyard.io/company/sonar/" }],
         answer: { name: "Secret",
-          image: "assets/images/secret2.png",
+          image: "assets/images/secret.png",
           url: "http://startupgraveyard.io/company/secret/" }
     },
     { id: 01,
       question: "Which of the following were NOT software companies?",
       choices: [
         { name: "Poliana",
-          image: "assets/images/rdio2.png",
+          image: "assets/images/poliana.png",
           url: "http://startupgraveyard.io/company/poliana/" },
         { name: "Wantful",
-          image: "assets/images/secret2.png",
-          url: "http://startupgraveyard.io/company/secret/" },
+          image: "assets/images/wantful.png",
+          url: "http://startupgraveyard.io/company/wantful/" },
         { name: "Secret",
-          image: "assets/images/sonar2.png",
-          url: "http://startupgraveyard.io/company/sonar/" },
+          image: "assets/images/secret.png",
+          url: "http://startupgraveyard.io/company/secret/" },
         { name: "Lumos",
-          image: "assets/images/secret2.png",
+          image: "assets/images/lumos.png",
           url: "http://startupgraveyard.io/company/lumos/" }],
       answer: {
         name: "Lumos",
-        image: "assets/images/secret2.png",
+        image: "assets/images/lumos.png",
         url: "http://startupgraveyard.io/company/lumos/" }
     },
     { id: 02,
       question: "Which of these companies were NOT founded in San Francisco, California?",
       choices: [
         { name: "Rdio",
-          image: "assets/images/rdio2.png",
+          image: "assets/images/rdio.png",
           url: "http://startupgraveyard.io/company/rdio/" },
         { name: "Secret",
-          image: "assets/images/secret2.png",
+          image: "assets/images/secret.png",
           url: "http://startupgraveyard.io/company/secret/" },
         { name: "Lookery",
-          image: "assets/images/lookery2.png",
+          image: "assets/images/lookery.png",
           url: "http://startupgraveyard.io/company/lookery/" },
         { name: "Sonar",
-          image: "assets/images/sonar2.png",
+          image: "assets/images/sonar.png",
           url: "http://startupgraveyard.io/company/sonar/" }],
       answer: {
         name: "Sonar",
-          image: "assets/images/sonar2.png",
+          image: "assets/images/sonar.png",
           url: "http://startupgraveyard.io/company/sonar/" }
     },
     { id: 03,
       question: "Which of the following startups were NOT eCommerce?",
       choices: [
         { name: "Alikolo",
-          image: "assets/images/rdio2.png",
+          image: "assets/images/alikolo.png",
           url: "http://startupgraveyard.io/company/alikolo/" },
         { name: "99Dresses",
-          image: "assets/images/secret2.png",
+          image: "assets/images/99dresses.png",
           url: "http://startupgraveyard.io/company/99dresses/" },
         { name: "Poliana",
-          image: "assets/images/lookery2.png",
+          image: "assets/images/poliana.png",
           url: "http://startupgraveyard.io/company/poliana/" },
         { name: "Totsy",
-          image: "assets/images/sonar2.png",
+          image: "assets/images/totsy.png",
           url: "http://startupgraveyard.io/company/totsy/" }],
       answer: {
         name: "Poliana",
-        image: "assets/images/lookery2.png",
+        image: "assets/images/poliana.png",
         url: "http://startupgraveyard.io/company/poliana/" }
+    },
+    { id: 04,
+      question: "Which of these startups was not based in the United States?",
+      choices: [
+        { name: "Grooveshark",
+          image: "assets/images/grooveshark.png",
+          url: "http://startupgraveyard.io/company/grooveshark/" },
+        { name: "Exec",
+          image: "assets/images/exec.png",
+          url: "http://startupgraveyard.io/company/exec/" },
+        { name: "Homejoy",
+          image: "assets/images/homejoy.png",
+          url: "http://startupgraveyard.io/company/homejoy/" },
+        { name: "99Dresses",
+          image: "assets/images/99dresses.png",
+          url: "http://startupgraveyard.io/company/99dresses/" }],
+      answer: {
+        name: "99Dresses",
+        image: "assets/images/99dresses.png",
+        url: "http://startupgraveyard.io/company/99dresses/" }
+  },
+  { id: 05,
+    question: "Which of the following startups were NOT hardware based?",
+    choices: [
+      { name: "Grooveshark",
+        image: "assets/images/grooveshark.png",
+        url: "http://startupgraveyard.io/company/grooveshark/" },
+      { name: "Calxeda",
+        image: "assets/images/calxeda.png",
+        url: "http://startupgraveyard.io/company/calxeda/" },
+      { name: "Lumos",
+        image: "assets/images/lumos.png",
+        url: "http://startupgraveyard.io/company/lumos/" },
+      { name: "Wattage",
+        image: "assets/images/wattage.png",
+        url: "http://startupgraveyard.io/company/wattage/" }],
+    answer: {
+      name: "Grooveshark",
+      image: "assets/images/grooveshark.png",
+      url: "http://startupgraveyard.io/company/grooveshark/" }
+},
+{ id: 05,
+  question: "Which of the following startups were music based?",
+  choices: [
+    { name: "Sonar",
+      image: "assets/images/sonar.png",
+      url: "http://startupgraveyard.io/company/sonar/" },
+    { name: "Rdio",
+      image: "assets/images/rdio.png",
+      url: "http://startupgraveyard.io/company/rdio/" },
+    { name: "Bawte",
+      image: "assets/images/bawte.png",
+      url: "http://startupgraveyard.io/company/bawte/" },
+    { name: "Nouncer",
+      image: "assets/images/nouncer.png",
+      url: "http://startupgraveyard.io/company/nouncer/" }],
+  answer: {
+    name: "Rdio",
+    image: "assets/images/rdio.png",
+    url: "http://startupgraveyard.io/company/rdio/" }
+},
+{ id: 06,
+  question: "Which of the following startups did NOT have talent acquisition issues?",
+  choices: [
+    { name: "99Dresses",
+      image: "assets/images/99dresses.png",
+      url: "http://startupgraveyard.io/company/99dresses/" },
+    { name: "Rdio",
+      image: "assets/images/rdio.png",
+      url: "http://startupgraveyard.io/company/rdio/" },
+    { name: "Nouncer",
+      image: "assets/images/nouncer.png",
+      url: "http://startupgraveyard.io/company/nouncer/" },
+    { name: "Wattage",
+      image: "assets/images/wattage.png",
+      url: "http://startupgraveyard.io/company/wattage/" }],
+  answer: {
+    name: "Wattage",
+    image: "assets/images/wattage.png",
+    url: "http://startupgraveyard.io/company/wattage/" }
+},
+{ id: 07,
+  question: "This company created a web application that tried to visualize political influence through data.",
+  cchoices: [
+    { name: "Berg",
+      image: "assets/images/berg.png",
+      url: "http://startupgraveyard.io/company/berg/" },
+    { name: "admazely",
+      image: "assets/images/admazely.png",
+      url: "http://startupgraveyard.io/company/admazely/" },
+    { name: "Poliana",
+      image: "assets/images/poliana.png",
+      url: "http://startupgraveyard.io/company/poliana/" },
+    { name: "Monitor110",
+      image: "assets/images/monitor110.png",
+      url: "http://startupgraveyard.io/company/monitor110/" }],
+  answer: {
+    name: "Poliana",
+    image: "assets/images/poliana.png",
+    url: "http://startupgraveyard.io/company/poliana/" }
+},
+{ id: 08,
+  question: "This company created an online platform connecting professional cleaners with clients for $20/hour.",
+  choices: [
+    { name: "Totsy",
+      image: "assets/images/totsy.png",
+      url: "http://startupgraveyard.io/company/totsy/" },
+    { name: "Exec",
+      image: "assets/images/exec.png",
+      url: "http://startupgraveyard.io/company/exec/" },
+    { name: "Homejoy",
+      image: "assets/images/homejoy.png",
+      url: "http://startupgraveyard.io/company/homejoy/" },
+    { name: "Bawte",
+      image: "assets/images/bawte.png",
+      url: "http://startupgraveyard.io/company/bawte/" }],
+  answer: {
+    name: "Homejoy",
+    image: "assets/images/homejoy.png",
+    url: "http://startupgraveyard.io/company/homejoy/" }
+  },
+{ id: 09,
+  question: "Which company’s failure was NOT due to law issues?",
+  choices: [
+    { name: "Rdio",
+      image: "assets/images/rdio.png",
+      url: "http://startupgraveyard.io/company/rdio/" },
+    { name: "Grooveshark",
+      image: "assets/images/grooveshark.png",
+      url: "http://startupgraveyard.io/company/grooveshark/" },
+    { name: "ArsDigita",
+      image: "assets/images/arsdigita.png",
+      url: "http://startupgraveyard.io/company/arsdigita/" },
+    { name: "Homejoy",
+      image: "assets/images/homejoy.png",
+      url: "http://startupgraveyard.io/company/homejoy/" }],
+  answer: {
+    name: "Rdio",
+    image: "assets/images/rdio.png",
+    url: "http://startupgraveyard.io/company/rdio/" }
+  },
+  { id: 10,
+    question: "This company was known for making the “little printer”, a small IoT printing device.",
+    choices: [
+      { name: "Lumos",
+        image: "assets/images/lumos.png",
+        url: "http://startupgraveyard.io/company/lumos/" },
+      { name: "Wattage",
+        image: "assets/images/wattage.png",
+        url: "http://startupgraveyard.io/company/wattage/" },
+      { name: "Poliana",
+        image: "assets/images/poliana.png",
+        url: "http://startupgraveyard.io/company/poliana/" },
+      { name: "Berg",
+        image: "assets/images/berg.png",
+        url: "http://startupgraveyard.io/company/berg/" }],
+    answer: {
+      name: "Berg",
+      image: "assets/images/berg.png",
+      url: "http://startupgraveyard.io/company/berg/" }
     }
   ];
 
@@ -119,27 +279,6 @@ function newQuestion() {
   $('#option-four-image').html("<img src=\""+ currentQuestion.choices[3].image + "\" >");
 }
 
-// document ready start game
-//start timer - > set intreval every 1 sec
-  // stop timer at < :01
-
-
-// show the question
-// start the timer
-// if the timer = :00 then game over
-  // grab the div with the timer and setIntraval to start at certain seconds and count down
-  // if the content in this div === :00
-  // game over
-// on the click of the wrong answer do something
-  // turn the block grayscale and outline the div border in red
-  // update scores
-// on click of right answer do something
-  // turn the outline green
-  // add to points
-  // reset timer
-  // newQuestion()
-// on click of hint do something
-  // eliminate one answer
   $('#click-choice-one').on('click', function(){
     $(".answer-choices").fadeOut(500);
     if (currentQuestion.answer.name.toLowerCase() === $("#option-one-name").text().toLowerCase()) {

@@ -1,13 +1,11 @@
-* Show only one question until the player answers it or their time runs out
+# Welcome to Startup Graveyard trivia
 
-* If the player selects the correct answer, show a screen congratulating them for choosing the right option.
+This is a working prototype for a trivia game based on the stories of startups that didn't make it. Feel free to reference the [graveyard itself](http://startupgraveyard.io/) before jumping into the trivia.
 
-* After a few seconds, display the next question -- do this without user input.
+## The Rules
+You have 30 seconds to answer the trivia question. You have up to three hints, which will essentially remove one incorrect answer.
 
-The scenario is similar for wrong answers and time-outs.
+## This is a project in development
+Please send an email to [hello@hovsep.io](mailto:hello@hovsep.io) with any ideas, recommendations and bugs.
 
-If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-
-If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
-
-On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+## Visit the gravyeard at [startupgraveyard.io](http://startupgraveyard.io/)

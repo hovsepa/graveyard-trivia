@@ -1,14 +1,49 @@
+Tales of caution to similar companies - secret to ?
+hello from the other side
+
+incorrect funnies
+
+napster
+
+making of a grave
+
+http://blogs.correiobraziliense.com.br/tecnoveste/cemiterio-de-startups-elenca-os-projetos-mais-ambiciosos-que-nao-deram-certo/
+
+http://www.alphr.com/startups/1005874/the-startup-graveyard-shows-budding-entrepreneurs-how-easily-it-can-all-go-wrong
+
+http://digg.com/2017/startup-graveyard
+
+https://startacus.net/culture/startup-graveyard-digs-up-failed-startups#.WSfc3RPyuAw
+
+https://www.startups.co/reviews/honoring-dead-startup-graveyard-keep-hope-alive
+
+http://tech.co/take-trip-tech-valhalla-startup-graveyard-2017-05
+
+https://www.indianweb2.com/2017/05/09/graveyard-failed-startups-avoid-making-mistakes/
+
+https://thenextweb.com/insider/2017/05/08/pay-respects-dead-tech-companies-startup-graveyard/#.tnw_d8OrFKSw
+
+http://thehypeworld.com/graveyard-dead-companies/
+
+http://gigazine.net/news/20170515-startup-graveyard/
+
+https://www.kocpc.com.tw/archives/145688
+
+https://www.trendingtopics.at/jemand-hat-einen-startup-friedhof-gebastelt/
+
+
+
 * find out more about sonar
 
-Which of these companies were NOT founded in San Francisco, California?
+√ Which of these companies were NOT founded in San Francisco, California?
 Rdio
 Secret
 Lookery
 Sonar - no
 
-Which of these startups was not based in the United States?
+√ Which of these startups was not based in the United States?
 
-Which of these startups are an eCommerce company?
+√ Which of these startups are an eCommerce company?
 
 This startup was founded in Sydney, Australia.
 99 Dresses
@@ -16,22 +51,25 @@ This startup was founded in Sydney, Australia.
 Which of the following companies did not have Visa issues?
 99Dresses - yes
 
-Which of the following startups did not have talent acquisition issues?
+√ Which of the following startups did not have talent acquisition issues?
 99Dresses - yes
+rdio - yes
+bouncer - yes
+wattage - no
 
-Which of the following startups were NOT eCommerce?
+√ Which of the following startups were NOT eCommerce?
 Alikolo
 Totsy
 99Dresses
 ????
 
-Which of the following startups were NOT hardware based?
+√ Which of the following startups were NOT hardware based?
 Wattage
 Lumos
 Calxeda
 ????
 
-Which of the following startups were music based?
+√ Which of the following startups were music based?
 Rdio - yes
 Sonar - no
 Bawte - no
@@ -43,6 +81,28 @@ Secret
 Poliana
 ????
 
+This company put on flash sales for toddlers and young mothers.
+Totsy - yes
+99dresses - no
+
+√ This company created a web application that tried to visualize political influence through data. poliana
+
+√ Homejoy was an online platform connecting professional cleaners with clients for $20/hour.
+
+√ Which company’s failure was not due to law issues?
+grooveshark
+arsdigita
+homejoy
+
+Berg was a cloud-based company that developed and commercialized cloud services for hardware innovators. They were known for making the “little printer”, a small IoT printing device.
+
+99dresses was a virtual closet that allowed users to trade fashion items with other users.
+
+Bawte provided a service for customer engagement.
+
+Which concept raised > 50M
+
+
 This company offered a platform to share personal secrets with other users anonymously.
 
 Wantful
@@ -51,4 +111,4 @@ Lookery
 Sonar
 
 
-
+ √
