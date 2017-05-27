@@ -162,7 +162,7 @@ var questions = [
 },
 { id: 07,
   question: "This company created a web application that tried to visualize political influence through data.",
-  cchoices: [
+  choices: [
     { name: "Berg",
       image: "assets/images/berg.png",
       url: "http://startupgraveyard.io/company/berg/" },
@@ -257,7 +257,6 @@ $(document).ready(function() {
 function newQuestion() {
 
   var randNum = Math.floor(Math.random() * questions.length);
-  console.log(randNum);
   currentQuestion = questions[randNum];
   $('#next').hide();
 
@@ -422,7 +421,6 @@ $('#click-choice-four').on('click', function(){
 });
 
 $('#next').on('click', function () {
-
   if (questions.length < 1) {
     $('#question').text("That's all the questions we got for now!")
     $('.options').css('display', "none");
