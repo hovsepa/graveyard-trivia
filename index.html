@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <title></title>
-  </head>
-  <body>
-    <header id="top-nav">
-      <h1>Graveyard Trivia</h1>
-    </header>
 
-    <!-- Keeping score -->
-    <section id="scores-section">
-      <div id="round-container" class="score-divs">
-        <p class="score-heading">Round</p>
-        <p id="round-num">1</p>
-      </div>
-      <div id="points-container" class="score-divs">
-        <p class="score-heading">Points</p>
-        <p id="points-num">0</p>
-      </div>
-      <div id="unkn-container" class="score-divs">
-        <p class="score-heading">Time</p>
-        <p id="time-num">1</p>
-      </div>
-    </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <title>Graveyard Trivia</title>
+</head>
 
-    <!-- Trivia -->
-    <section class="trivia">
-      <div id="question"></div>
-      <!-- Answer Choices -->
-      <div class="answer-choices">
-        <div id="click-choice-one" class="options">
-          <div id="option-one-image" class="choice-images"></div>
-          <div id="option-one-name" class="choice-text"></div>
-        </div>
-        <div id="click-choice-two" class="options">
-          <div id="option-two-image" class="choice-images"></div>
-          <div id="option-two-name" class="choice-text"></div>
-        </div>
-        <div id="click-choice-three" class="options">
-          <div id="option-three-image" class="choice-images"></div>
-          <div id="option-three-name" class="choice-text"></div>
-        </div>
-        <div id="click-choice-four" class="options">
-          <div id="option-four-image" class="choice-images"></div>
-          <div id="option-four-name" class="choice-text"></div>
-        </div>
+<body>
+  <header id="top-nav">
+    <h1>Graveyard Trivia</h1>
+  </header>
+
+  <!-- Keeping score -->
+  <section id="scores-section">
+    <div id="round-container" class="score-divs">
+      <p class="score-heading">Round</p>
+      <p id="round-num">1</p>
+    </div>
+    <div id="points-container" class="score-divs">
+      <p class="score-heading">Points</p>
+      <p id="points-num">0</p>
+    </div>
+    <div id="unkn-container" class="score-divs">
+      <p class="score-heading">Time</p>
+      <p id="time-num">1</p>
+    </div>
+  </section>
+
+  <!-- Trivia -->
+  <section class="trivia">
+    <div id="question"></div>
+    <!-- Answer Choices -->
+    <div class="answer-choices">
+      <div id="click-choice-one" class="options">
+        <div id="option-one-image" class="choice-images"></div>
+        <div id="option-one-name" class="choice-text"></div>
       </div>
-
-      <!-- Learn More -->
-      <div class="learn-more">
-        <div id="selected-image"></div>
-        <p id="learn-more-text">Learn more about <span id="selected-company"></span> </p>
+      <div id="click-choice-two" class="options">
+        <div id="option-two-image" class="choice-images"></div>
+        <div id="option-two-name" class="choice-text"></div>
       </div>
-
-      <!-- Bottom Nav -->
-      <div class="next-hint">
-        <p id="next">Next ></p>
-        <p id="hint">Hint</p>
+      <div id="click-choice-three" class="options">
+        <div id="option-three-image" class="choice-images"></div>
+        <div id="option-three-name" class="choice-text"></div>
       </div>
-    </section>
+      <div id="click-choice-four" class="options">
+        <div id="option-four-image" class="choice-images"></div>
+        <div id="option-four-name" class="choice-text"></div>
+      </div>
+    </div>
 
-    <!-- Bottom nav -->
-    <footer>
-      <div id="footer-image"></div>
-    </footer>
+    <!-- Learn More -->
+    <div class="learn-more">
+      <div id="selected-image"></div>
+      <p id="learn-more-text">Learn more about <span id="selected-company"></span> </p>
+    </div>
 
-  </body>
-  <script src="assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>
-  <script src="assets/js/app.js" charset="utf-8"></script>
+    <!-- Bottom Nav -->
+    <div class="next-hint">
+      <p id="next">Next ></p>
+      <p id="hint">Hint</p>
+    </div>
+  </section>
+
+  <!-- Bottom nav -->
+  <footer>
+    <div id="footer-image"></div>
+  </footer>
+
+</body>
+<script src="assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="assets/js/app.js" charset="utf-8"></script>
+
 </html>

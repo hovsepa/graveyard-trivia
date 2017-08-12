@@ -2,6 +2,8 @@
 
 This is a working prototype for a trivia game based on the stories of startups that didn't make it. Feel free to reference the [graveyard itself](http://startupgraveyard.io/) before jumping into the trivia.
 
+![alt text](./design/graveyard-trivia.gif "graveyard trivia protoype")
+
 ## The Rules
 You have 30 seconds to answer the trivia question. You have up to three hints, which will essentially remove one incorrect answer.
 
