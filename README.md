@@ -2,6 +2,8 @@
 
 This is a working prototype for a trivia game based on the stories of startups that didn't make it. Feel free to reference the [graveyard itself](http://startupgraveyard.io/) before jumping into the trivia.
 
+[Link to project](https://hovsepa.github.io/graveyard-trivia/)
+
 ![alt text](./design/graveyard-trivia.gif "graveyard trivia protoype")
 
 ## The Rules
